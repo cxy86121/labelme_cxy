@@ -1,0 +1,12 @@
+.vscode/*
+/.cache/
+/.pytest_cache/
+
+/build/
+/dist/
+/*.egg-info/
+
+*.py[cdo]
+
+.DS_Store
+.idea/
