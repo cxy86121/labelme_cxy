@@ -1341,7 +1341,6 @@ class MainWindow(QtWidgets.QMainWindow):
 
         position MUST be in global coordinates.
         """
-        breakpoint()
         items = self.uniqLabelList.selectedItems()
         text = None
         if items:
@@ -2146,4 +2145,4 @@ class MainWindow(QtWidgets.QMainWindow):
                 if has_txt_list:
                     txt_path_info=",".join([os.path.basename(x) for x in has_txt_list])
                     self.status("{} has removed from {}".format(self.filename,txt_path_info))
-                
+
